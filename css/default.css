@@ -1,0 +1,116 @@
+    a:link {
+		color: #ff9900;
+		font-size: 10pt;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 2px 10px;    
+    }
+    
+    a:active {
+		color: #ff9900;
+		font-size: 10pt;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 2px 10px;    
+    }
+    
+    a:visited {
+		color: #ff9900;
+		font-size: 10pt;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 2px 10px;    
+    }
+    
+    a:hover {
+    	color: white;
+    	font-size: 10pt;
+    	text-decoration: none;
+    	font-weight: bold;
+    	background-color: #ffcc99; 
+		padding: 2px 10px;
+    }
+    
+    #tabs{
+        padding: 0;
+        background: transparent;
+        voice-family: "\"}\"";
+        voice-family: inherit;
+        padding-left: 100px;
+        padding-top: 50px;
+        width: 800px;
+        margin: 0 auto;
+    }
+    #tabs ul{
+        font: bold 11px Arial, Verdana, sans-serif;
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
+    #tabs li{
+        display:inline;
+        margin:0 2px 0 0;
+        padding:0;
+        text-transform:uppercase;
+    }
+    #tabs a{
+        float:left;
+        background:#ffcc99 url(images/tabs_left.gif) no-repeat left top;
+        margin:0 2px -2px 0;
+        padding:0 0 0px 3px;
+        text-decoration:none;
+        color: white;
+    }
+    #tabs a span{
+        float:left;
+        display:block;
+        background: transparent url(images/tabs_right.gif) no-repeat right top;
+        padding:10px 13px 7px 10px;
+    }
+    #tabs a span{float:none;}
+    #tabs a:hover{background-color: #ff9900; color: white}
+    #tabs a:hover span{background-color: #ff9900; color: white}
+    #tabHeaderActive span, #tabHeaderActive a { background-color: #ff9900; color:#fff}
+    .tabContent {
+        clear: both;
+        width: 800px;
+        border: 2px solid orange;
+        padding-top: 5px;
+        background-color: #FFF;
+        padding-left: 5px;
+        margin: 1px auto;
+    }
+    body {font-family: tahoma;
+    	  color: #616D7E;
+    
+    }
+    input {border: 1px solid orange;
+    	   background-color: white;
+    	   color: black;
+    	   padding: 4px;
+    }
+    input:focus {
+		   background-color: #FFEBD9;
+	}
+	
+	select {border: 1px solid orange;
+    	   background-color: white;
+    	   color: black;
+    	   padding: 4px;
+    }
+    select:focus {
+		   background-color: #FFEBD9;
+	}
+	#adlist_tr:hover {
+		   background-color: #ffcc99;
+	}
+	#adlist_td {
+		   font-size: 12px;
+		   text-align: center;
+	}
+	#adlist_th {
+		   font-size: 12px;
+		   text-transform: uppercase;
+		   font-weight: bold;
+	}
+	
